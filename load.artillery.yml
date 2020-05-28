@@ -1,0 +1,11 @@
+config:
+    target: "http://localhost:3000"
+    phases:
+      - duration: 400s
+        arrivalRate: 20000
+scenarios:
+  - flow:
+      - post:
+          url: "/v1/example/echo"
+          json:
+              value: "dedededededededekjlknlknlknlknlnlknde"
