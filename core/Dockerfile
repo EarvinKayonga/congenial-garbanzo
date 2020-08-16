@@ -1,4 +1,4 @@
-FROM    rust:1.43-slim-stretch as base
+FROM    rust:1.45-slim-stretch as base
 RUN     apt -y  update && apt -y install \ 
     pkg-config      \
     clang           \
