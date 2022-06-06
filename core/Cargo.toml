@@ -10,7 +10,7 @@ edition = "2018"
 failure             = "^0.1"
 prost               = "0.6"
 tonic               = { version = "^0.3", features = ["tls"] }
-tokio               = { version = "^0.2", features = ["macros"] }
+tokio               = { version = "^1.8", features = ["macros"] }
 
 [target.'cfg(not(target_env = "msvc"))'.dependencies]
 jemallocator        = { version = "^0.3.2",  optional = true }
